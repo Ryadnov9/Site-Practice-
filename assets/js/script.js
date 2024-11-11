@@ -30,3 +30,5 @@ document.getElementById("scroll-to-top").onclick = function () {
 window.addEventListener("load", function () {
   window.scrollTo(0, 0);
 });
+
+/*поиск*/
