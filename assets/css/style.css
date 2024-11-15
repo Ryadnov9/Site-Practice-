@@ -219,10 +219,6 @@ footer {
   text-align: center;
 }
 
-.text-news {
-  text-align: center;
-}
-
 @media only screen and (max-width: 600px) {
   #featured-3 {
     margin-top: 20pt;
