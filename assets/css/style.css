@@ -103,6 +103,9 @@ footer {
 #featured-2 {
   margin-bottom: 40pt;
 }
+#direction {
+  margin-top: 40pt;
+}
 #py-5 {
   padding-top: 1rem;
 }
@@ -217,6 +220,62 @@ footer {
 
 .header-md {
   text-align: center;
+}
+
+/*swiper*/
+.my-swiper {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.feature-icon img {
+  border-radius: 8px;
+}
+
+.icon-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.icon-link:hover {
+  text-decoration: underline;
+}
+
+.carousel img {
+  height: 400px;
+  object-fit: cover;
+}
+.carousel-caption {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  border-radius: 10px;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #ffffff; /* Установите желаемый цвет */
+  border-radius: 50%; /* Опционально: закругление для стилизации */
+}
+
+.carousel-control-prev-icon::before,
+.carousel-control-next-icon::before {
+  color: rgb(236, 7, 7); /* Устанавливает цвет стрелки внутри иконки */
+}
+
+#newsSlider {
+  padding-top: 24px;
+}
+
+.map {
+  padding-top: 50px;
+}
+
+.news-1 {
+  color: white;
+  text-decoration: none;
 }
 
 @media only screen and (max-width: 600px) {
