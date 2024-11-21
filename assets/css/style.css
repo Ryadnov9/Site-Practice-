@@ -256,13 +256,13 @@ footer {
 }
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
-  background-color: #ffffff; /* Установите желаемый цвет */
-  border-radius: 50%; /* Опционально: закругление для стилизации */
+  background-color: #ffffff;
+  border-radius: 50%;
 }
 
 .carousel-control-prev-icon::before,
 .carousel-control-next-icon::before {
-  color: rgb(236, 7, 7); /* Устанавливает цвет стрелки внутри иконки */
+  color: rgb(236, 7, 7);
 }
 
 #newsSlider {
@@ -277,7 +277,9 @@ footer {
   color: white;
   text-decoration: none;
 }
-
+.text-news {
+  color: white;
+}
 @media only screen and (max-width: 600px) {
   #featured-3 {
     margin-top: 20pt;
