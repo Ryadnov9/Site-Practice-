@@ -26,18 +26,6 @@ function clearSearch() {
   });
 }
 
-/*Отступ */
-document
-  .querySelectorAll("#footer-custom-style .col")
-  .forEach((col) => (col.style.marginBottom = "0"));
-document
-  .querySelectorAll("#footer-custom-style .nav-item")
-  .forEach((item) => (item.style.marginBottom = "0"));
-document.querySelectorAll("#footer-custom-style .nav-link").forEach((link) => {
-  link.style.paddingTop = "0";
-  link.style.paddingBottom = "0";
-});
-
 /*Стрелка */
 window.onscroll = function () {
   scrollFunction();
