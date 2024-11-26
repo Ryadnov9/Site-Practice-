@@ -61,18 +61,55 @@ p {
 }
 
 #text {
-  background-color: #ffffff; /* Белый фон */
-  border-radius: 15px; /* Скругление углов */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Тень */
-  padding: 20px; /* Внутренние отступы */
-  margin: 20px auto; /* Внешние отступы (центрируем блок по горизонтали) */
-  max-width: 1000px; /* Увеличенная ширина блока */
-  text-align: justify; /* Выравнивание текста по ширине */
-  line-height: 1.8; /* Интерлиньяж для читаемости текста */
-  font-family: Arial, sans-serif; /* Шрифт */
-  color: #333333; /* Цвет текста */
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 1000px;
+  text-align: justify;
+  line-height: 1.8;
+  font-family: Arial, sans-serif;
+  color: #333333;
 }
 
 #tex-1 {
-  margin: 0; /* Убираем отступы у параграфа */
+  margin: 0;
+}
+
+/*news*/
+.news-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+  text-align: center;
+}
+
+.feature {
+  flex: 1 1 calc(25% - 16px);
+  box-sizing: border-box;
+  max-width: calc(25% - 16px);
+}
+
+.feature-icon {
+  margin: 0 auto;
+}
+
+#feature-icon {
+  border-radius: 0;
+  height: 300px;
+  width: 300px;
+}
+
+@media (max-width: 480px) {
+  .feature {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+
+  .news-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
 }

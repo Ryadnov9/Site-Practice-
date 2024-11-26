@@ -416,3 +416,24 @@ footer {
     width: 100%;
   }
 }
+
+/*swiper*/
+
+@media (max-width: 768px) {
+  .carousel-caption {
+    max-width: 80%; /* Ограничиваем ширину блока */
+    margin: 0 auto; /* Центрируем блок */
+    padding: 6px 10px; /* Уменьшаем внутренние отступы */
+    font-size: 12px; /* Уменьшаем общий размер текста */
+  }
+
+  .carousel-caption h5 {
+    font-size: 14px; /* Заголовок становится меньше */
+    margin-bottom: 5px; /* Уменьшаем отступ снизу */
+  }
+
+  .carousel-caption p {
+    font-size: 12px; /* Описание становится меньше */
+    line-height: 1.2; /* Компактное расстояние между строками */
+  }
+}
