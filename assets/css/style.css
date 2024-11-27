@@ -186,8 +186,8 @@ footer {
 .header-md {
   text-align: center;
 }
-footer {
-  position: relative;
+#footer-fead {
+  position: absolute;
   bottom: 0;
   width: 100%;
 }
@@ -352,7 +352,7 @@ footer {
 }
 @media only screen and (max-width: 600px) {
   footer {
-    position: static;
+    position: relative;
     margin-top: 20pt;
     text-align: center;
   }
@@ -417,23 +417,35 @@ footer {
   }
 }
 
+@media (max-width: 768px) {
+  #footer-s {
+    position: relative;
+  }
+}
+
+@media (max-width: 768px) {
+  #footer-fead {
+    position: relative;
+  }
+}
+
 /*swiper*/
 
 @media (max-width: 768px) {
   .carousel-caption {
-    max-width: 80%; /* Ограничиваем ширину блока */
-    margin: 0 auto; /* Центрируем блок */
-    padding: 6px 10px; /* Уменьшаем внутренние отступы */
-    font-size: 12px; /* Уменьшаем общий размер текста */
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 6px 10px;
+    font-size: 12px;
   }
 
   .carousel-caption h5 {
-    font-size: 14px; /* Заголовок становится меньше */
-    margin-bottom: 5px; /* Уменьшаем отступ снизу */
+    font-size: 14px;
+    margin-bottom: 5px;
   }
 
   .carousel-caption p {
-    font-size: 12px; /* Описание становится меньше */
-    line-height: 1.2; /* Компактное расстояние между строками */
+    font-size: 12px;
+    line-height: 1.2;
   }
 }
