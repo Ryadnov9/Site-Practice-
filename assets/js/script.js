@@ -44,6 +44,10 @@ document.getElementById("scroll-to-top").onclick = function () {
   document.documentElement.scrollTop = 0;
 };
 
+document
+  .querySelector(".container-main")
+  .style.setProperty("padding-bottom", "0", "important");
+
 // /*Обновление страницы*/
 // window.addEventListener("load", function () {
 //   window.scrollTo(0, 0);
