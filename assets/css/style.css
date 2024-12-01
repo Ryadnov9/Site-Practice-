@@ -88,7 +88,7 @@ footer {
   text-align: center;
 }
 #featured-3 {
-  margin-bottom: 90pt;
+  margin-bottom: 0px;
 }
 
 .text-2 {
@@ -165,9 +165,6 @@ footer {
   text-align: center;
 }
 
-.main {
-  margin-bottom: 10pt;
-}
 .photo {
   margin-top: 5pt;
   margin-bottom: 5pt;
@@ -196,7 +193,6 @@ footer {
 #featured-3 {
   background-color: #f6f5f2;
   margin-top: 40pt;
-  margin-bottom: 10pt;
 }
 .image {
   display: flex;
