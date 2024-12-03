@@ -290,6 +290,10 @@ footer {
     display: flex;
     justify-content: center;
   }
+  #scroll-to-top img {
+    width: 20px;
+    height: 20px;
+  }
 
   @media only screen and (max-width: 600px) {
     #featured-3 {
